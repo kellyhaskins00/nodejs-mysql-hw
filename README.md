@@ -26,7 +26,7 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 
 4. Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
 
-![Image of database Table](https://camo.githubusercontent.com/images/Capture5.JPG)
+![Database and Table](/nodejs-mysql-hw/images/Capture5.JPG?raw=true "database and table")
 
 5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
 
