@@ -26,31 +26,31 @@ In this activity, you'll be creating an Amazon-like storefront with the MySQL sk
 
 4. Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table).
 
-![Database and Table](/nodejs-mysql-hw/images/Capture5.JPG?raw=true "database and table")
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/nodejs-mysql-hw/master/images/Capture5.JPG)
 
 5. Then create a Node application called `bamazonCustomer.js`. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale.
 
-![Image of database Table](https://camo.githubusercontent.com/images/Capture1.JPG)
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/nodejs-mysql-hw/master/images/Capture1.JPG)
 
 6. The app should then prompt users with two messages.
 
    * The first should ask them the ID of the product they would like to buy.
    
-![Image of database Table](https://camo.githubusercontent.com/images/Capture2.JPG)
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/nodejs-mysql-hw/master/images/Capture2.JPG)
 
    * The second message should ask how many units of the product they would like to buy.
 
-![Image of database Table](https://camo.githubusercontent.com/images/Capture3.JPG)
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/nodejs-mysql-hw/master/images/Capture3.JPG)
 
 
 7. Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request.
 
    * If not, the app should log a phrase like `Insufficient quantity!`, and then prevent the order from going through.
 
-![Image of database Table](https://camo.githubusercontent.com/images/Capture3.JPG)
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/nodejs-mysql-hw/master/images/Capture3.JPG)
 
 8. However, if your store _does_ have enough of the product, you should fulfill the customer's order.
    * This means updating the SQL database to reflect the remaining quantity.
    * Once the update goes through, show the customer the total cost of their purchase.
 
-![Image of database Table](https://camo.githubusercontent.com/images/Capture4.JPG)
+![alt text](https://raw.githubusercontent.com/kellyhaskins00/nodejs-mysql-hw/master/images/Capture4.JPG)
